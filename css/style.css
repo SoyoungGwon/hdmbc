@@ -1,0 +1,905 @@
+@import url('common.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+body {
+	background-color: #fff;
+}
+
+
+#header{
+	width:100%;
+	height: 39px;
+	background-color: #334555;
+}
+
+#header .header-area{
+	width:980px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#header .smalllogo{
+	background: url(../img/smalllogo.jpg) no-repeat;
+	width: 88px;
+	height: 39px;
+	text-indent: -9999em;
+	overflow: hidden;
+	float: left;
+}
+
+#header .mainmenu{
+	float: right;
+}
+
+#header .mainmenu li{
+	float: left;
+}
+
+#header .mainmenu li a{
+	display: block;
+	width: 66px;
+	height: 39px;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#header .mainmenu li ul li{
+	float: none;
+}
+
+#header .mainmenu li ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 0;
+	float: none;
+}
+
+#header .mainmenu .main1 {background: url(../img/main1.jpg) no-repeat}
+#header .mainmenu .main2 {background: url(../img/main2.jpg) no-repeat}
+#header .mainmenu .main3 {background: url(../img/main3.jpg) no-repeat}
+#header .mainmenu .main4 {background: url(../img/main4.jpg) no-repeat}
+#header .mainmenu .main5 {background: url(../img/main5.jpg) no-repeat}
+#header .mainmenu .main6 {background: url(../img/main6.jpg) no-repeat}
+#header .mainmenu .main7 {background: url(../img/main7.jpg) no-repeat; width:68px;}
+
+#header .more {
+	display: none;
+	position: absolute;
+	top:38px;
+	right: 0;
+	width: 694px;
+	background-color:white;
+	color: #333;
+	font: 13px 'Nanum Gothic', sans-serif;
+	z-index: 10;
+	border: 1px solid #334555;
+	padding-top: 21px;
+	overflow: hidden;
+}
+
+#header .nav{
+	padding-bottom: 24px;
+}
+
+#header .nav .nav1 {
+	float: left;
+	padding:0px 10px 0 20px;
+	box-sizing: border-box;
+	text-align: left;
+	width: 25%;
+	border-right: 1px solid #ddd;
+}
+
+#header .nav .nav1 .nav-tle{
+	font: bold 14px 'Nanum Gothic', sans-serif;
+	color: #333;
+	margin-bottom: 12px;
+}
+
+#header .nav .nav1.nav1-2{
+	padding-bottom: 20px;
+}
+
+#header .nav .nav1.nav1-4{
+	border-right: none;
+}
+
+#header .nav .nav1 ul li a{
+	font: 13px 'Nanum Gothic', sans-serif;
+	color:#202020;
+	line-height: 1.7em;
+}
+
+#header .nav-close {
+	height: 38px;
+	border-top: 1px solid #ececec;
+	background-color: #f3f3f3;
+	text-align: right;
+	padding-right: 15px;
+}
+
+#header .nav-close button{
+	border:0;
+	background-color: #f3f3f3;
+	height: 100%;
+	font: 13px 'Nanum Gothic', sans-serif;
+	color:#666;
+}
+
+.bg-area {
+    background: url(../img/bg.jpg) no-repeat scroll 50% 0;
+    height: 110px;
+    position: absolute;
+    width: 100%;
+}
+
+#wrap{
+	width:100%;
+	background: url(../img/bg.jpg) no-repeat;
+}
+
+#content{
+	width: 980px;
+	height: 450px;
+	margin: 0 auto;
+	border-left: 1px solid #ddd;
+	background: url(../img/dot.jpg) repeat-y 204px 0;
+	background-size: 2px;
+}
+
+#content #menu{
+	float: left;
+	background: url(../img/menu.jpg) no-repeat;
+	width:206px;
+	padding-bottom: 10px;
+	/*height:486px;*/
+}
+
+#content #menu .logo a{
+	display: block;
+	width:207px;
+	height:120px;
+	background: url(../img/logo.jpg) no-repeat;
+	text-indent: -9999em;
+	overflow: hidden;
+	margin-left: -1px;
+}
+
+#content #menu .sidemenu li{
+	position: relative;	
+}
+
+#content #menu .sidemenu li a{
+	display: block;
+	font: bold 16px 'Nanum Gothic', sans-serif;
+	color: #4b4b4b;
+	text-align: left;
+	width: 207px;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	letter-spacing: -1px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+#content #menu .sidemenu li a:hover{
+	color: #b1001a;
+}
+
+#content #menu .sidemenu li span{
+	display: none;
+}
+
+#content #menu .sidemenu li:hover span{
+	display: block;
+	background: url(../img/arrow.png) no-repeat;
+	width: 9px;
+	height: 13px;
+	position: absolute;
+	top:50%;
+	right: -7px;
+	margin-top: -4.5px;
+	text-indent: -9999em;
+}
+
+
+
+#slider{
+	position: relative;
+	width: 773px;
+	height: 480px;
+	box-sizing: border-box;
+	float:right;
+}
+
+#slider .bx-wrapper{
+	padding-left: 5px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#slider .bx-wrapper .bx-viewport{
+	box-shadow: none;
+	border: none;
+	position: relative;
+	background: none;
+}
+
+#slider .bx-pager.bx-default-pager{
+	position: absolute;
+	left: 15px;
+	bottom: 70px;
+	width: auto;
+}
+
+#slider .bx-wrapper .bx-pager-link.active{
+	background: url(../img/sIcon1.jpg) no-repeat;
+	width:24px;
+	height: 10px;
+	vertical-align: middle;
+}
+
+#content1 {
+	width:980px;
+	height: 275px;
+	border-left: 1px solid #ddd;
+	margin: 0 auto;
+	position: relative;
+}
+
+#content1 .techno-area{
+	width: 418px;
+	height: 245px;
+	margin: 0 38px 0 204px;
+	box-sizing: border-box;
+	border-left: 1px solid #ddd;
+	text-align: left;
+	padding-left: 32px;
+	float: left;
+}
+
+#content1 .techno-area h3{
+	font: bold 19px 'Nanum Gothic', sans-serif;
+	margin-bottom: 30px;
+}
+
+#content1 .techno-area h3 a{
+	float: right;
+	color: #9f9f9f;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+#content1 .techno-area p a{
+	font: 14px 'Nanum Gothic', sans-serif;
+	color: #666;
+	line-height: 2.5em;
+}
+
+#content1 .techno-area p a span{
+	float: right;
+}
+
+#content1 .btn-area{
+	position: relative;
+	right: 0;
+	top: 0px;
+	width: 315px;
+	height: 228px;
+	float: right;
+}
+
+#content1 .btn-area a{
+	display: block;
+	width: 310px;
+	height: 99px;
+	text-indent: -9999em;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+#content1 .btn-area .btn1{background: url(../img/btn1.jpg) no-repeat; margin-bottom: 5px;}
+#content1 .btn-area .btn2{background: url(../img/btn2.jpg) no-repeat;}
+
+#content2{
+	width:980px;
+	height: 300px;
+	border-left: 1px solid #ddd;
+	margin: 0 auto;
+	position: relative;
+}
+
+#content2 .production{
+	padding: 12px 0 0 34px;
+	width: 798px;
+	height: 114px;
+	margin-left: 204px;
+	box-sizing: border-box;
+	border-left: 1px solid #ddd;
+}
+
+#content2 .production h3, #content2 .transmit h3{
+	float: left;
+	width: 90px;
+	/*height: 100px;*/
+	background-color: #f3f3f3;
+	font: bold 19px/100px 'Nanum Gothic', sans-serif;
+}
+
+#content2 .production .pro{
+	float: right;
+	background: url(../img/pro.jpg) no-repeat;
+	width:673px;
+	/*height: 101px;*/
+	margin-left: -5px;
+}
+
+#content2 .production .pro li{
+	float: left;
+	width: 93px;
+	height: 101px;
+	margin: 0 auto;	
+	box-sizing: border-box;
+}
+
+#content2 .production .pro li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font: bold 15px 'Nanum Gothic', sans-serif;
+	color: #333333;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+#content2 .transmit{
+	padding: 18px 0 0 34px;
+	width: auto;
+	height: 186px;
+	margin-left: 204px;
+	box-sizing: border-box;
+	border-left: 1px solid #ddd;
+	float: left;
+}
+
+#content2 .transmit ul{
+	float: right;
+	background: url(../img/transmit.jpg) no-repeat;
+	width:370px;
+	/*height: 101px;*/
+}
+
+#content2 .transmit ul li{
+	float: left;
+	width: 185px;
+	/*height: 101px;*/
+	box-sizing: border-box;
+}
+
+#content2 .transmit ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font: bold 15px/101px 'Nanum Gothic', sans-serif;
+	color: #333333;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 44px;
+}
+
+
+#content2 .rnd{
+	float: right;
+	padding-top: 18px;
+	box-sizing: border-box;
+}
+
+#content2 .rnd h3{
+	float: left;
+	width: 90px;
+	/*height: 100px;*/
+	background-color: #f3f3f3;
+	font: bold 19px/100px 'Nanum Gothic', sans-serif;
+}
+
+#content2 .rnd div{
+	float: right;
+	background: url(../img/rnd.jpg) no-repeat;
+	width:191px;
+	/*height: 101px;*/
+}
+
+#content2 .rnd div a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font: bold 15px/101px 'Nanum Gothic', sans-serif;
+	color: #333333;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 44px;
+}
+
+#sub1{
+	width: 100%;
+	position: relative;
+}
+
+#sub1 #content{
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+
+#sub1 .sub1-img img{
+	margin-left: 203px;
+}
+
+#sub1 #menu{
+	position: absolute;
+	top:0;
+	left: 0;
+	background: url(../img/sub1_menu.jpg) no-repeat;
+	width: 207px;
+	padding-bottom: 110px; 
+}
+
+#sub1 #menu .sidemenu li:hover span{
+	right: -6px;
+}
+
+#sub1 #menu .sidemenu2{
+	padding: 10px 0 1px;
+}
+
+#sub1 #menu .sidemenu2 li a{
+	height: 30px;
+	font: 14px/30px 'Nanum Gothic', sans-serif;
+	color: #4b4b4b; 
+}
+
+#sub1 #menu .sidemenu2 .arrow1{
+	position: absolute;
+	top:50%;
+	right: -6px;
+	margin-top: -4.5px;
+}
+
+#sub1 #menu .sidemenu2 li a em{
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+#sub1 #engineering{
+	width: 775px;
+	height: 790px;
+	margin-left: 204px;
+	padding: 12px 0 0 30px;
+	background-color: white;
+	box-sizing: border-box;
+	border-left: 2px solid #ddd;
+	text-align: left;
+}
+
+#sub1 #engineering .engine-tle, #sub1 .digital2012 .digital-tle{
+	font: bold 28px/46px 'Nanum Gothic', sans-serif;
+	color: #333;
+	border-bottom: 2px solid #ddd;
+}
+
+#sub1 #engineering .engine-tle span, #sub1 .digital2012 .digital-tle span{
+	font: 13px/46px 'Nanum Gothic', sans-serif;
+	color: #686868;
+	float: right;
+}
+
+#sub1 #engineering .engine-tle span em, #sub1 .digital2012 .digital-tle span em{
+	color: #b1001a;
+}
+
+#sub1 #engineering h2{
+	font: 32px 'Nanum Gothic', sans-serif;
+	margin-top: 50px;
+	color: #de0c0c;
+}
+
+#sub1 #engineering h3{
+	font: 12px/24px 'Nanum Gothic', sans-serif;
+	color: #de0c0c;
+}
+
+#sub1 #engineering p{
+	font: 13px/22px 'Nanum Gothic', sans-serif;
+	color: #333;
+	margin-top: 20px;
+	letter-spacing: -1px;
+	margin-bottom: 40px;
+}
+
+#sub1 #engineering .engine1{
+	width: 256px;
+	float: left;
+}
+
+#sub1 #engineering .engine1 p, #sub1 #engineering .engine2 p{
+	padding-right: 28px;
+}
+
+#sub1 #engineering .engine2{
+	width: 257px;
+	float: left;
+}
+
+#sub1 #engineering .engine3{
+	width: 229px;
+	float: right;
+}
+
+#sub1 .digital2012{
+	width: 750px;
+	padding: 12px 0 0;
+	background-color: white;
+	box-sizing: border-box;
+	text-align: left;
+	float: right;
+}
+
+#sub1 .digital2012 .digital-tab{
+	margin-top: 60px;
+	position: relative;
+}
+
+#sub1 .digital2012 .digital-tab li{
+	width: 25%;
+	height: 45px;
+	float: left;
+	border-bottom: 2px solid #de0c0c;
+	
+	font: bold 17.7px/45px 'Nanum Gothic', sans-serif;
+	text-align: center;
+}
+
+#sub1 .digital2012 .digital-tab li a{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+}
+
+#sub1 .digital2012 .digital-tab .on a, #sub1 .digital2012 .digital-tab li a:hover{
+	color:white;
+	background-color: #de0c0c;
+}
+
+#sub1 .digital2012 #tab1, #sub1 .digital2012 #tab2, #tab3, #tab4{
+	margin: 45px auto 0;
+	font: 13px/20px 'Nanum Gothic', sans-serif;
+	letter-spacing: -0.5px;
+}
+
+#sub1 .digital2012 #tab1 .tab1-img{
+	background: url(../img/digianal.jpg) no-repeat;
+	width:610px;
+	height: 200px;
+	margin:55px auto 45px;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#sub1 .digital2012 #tab2 .bubble{
+	background: url(../img/bubble.jpg) no-repeat;
+	width: 765px;
+	height: 181px;
+	margin: 0 auto;
+	float: right;
+}
+
+#sub1 .digital2012 #tab2 .bubble li{
+	float: left;
+	width:255px;
+	font: 16px 'Nanum Gothic', sans-serif;
+	color: #de0c0c;
+	padding: 24px 30px;
+	box-sizing: border-box;
+}
+
+#sub1 .digital2012 #tab2 .table li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	margin-top: -1px;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+
+#sub1 .digital2012 #tab2 .table .last{
+	border-bottom: 2px solid #c3c3c3;
+
+}
+
+#sub1 .digital2012 #tab2 .table li.odd{
+	background-color: #f8f8f8;
+}
+
+#sub1 .digital2012 #tab3 h3, #sub1 .digital2012 #tab4 h3{
+	color: #333;
+    font: 26px 'Nanum Gothic', sans-serif;
+    margin: 30px 0 20px;
+}
+
+#sub1 .digital2012 #tab3 .sp_number{
+	display: inline-block;
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    background: url(../img/sp_number.png) no-repeat;
+    line-height: 999px;
+    float: left;
+    margin: 1px 10px 0 0;
+    vertical-align: middle;
+}
+
+#sub1 .digital2012 #tab3 .sp_number.numb1 {
+    background-position: 0 0;
+}
+
+#sub1 .digital2012 #tab3 .sp_number.numb2 {
+    background-position: 0 -18px;
+}
+
+#sub1 .digital2012 #tab3 .mid-tle{
+    font: bold 14px 'Nanum Gothic', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#sub1 .digital2012 #tab3 p{
+	line-height: 2em;
+}
+
+#sub1 .digital2012 #tab3 .num2-area{
+	margin:20px 0;
+}
+
+#sub1 .digital2012 #tab4 .tab4-tle{
+	background-color: #F8F8F8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding:13px;
+	margin: 20px 0;
+	font: bold 14px 'Nanum Gothic', sans-serif
+}
+
+#sub1 .digital2012 #tab4 .tab4-tle.first{
+	border-top: 2px solid #D60B0B;
+}
+
+
+#sub1 .digital2012 #tab4 .tab4-p{
+	padding-left: 10px;
+}
+
+#footer {
+	width: 100%;
+	height: 155px;
+	border-top: 2px solid #334555;
+	background-color: white;
+}
+
+#footer .with-m{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #eee;
+	background-color: white;
+	}
+
+#footer .with-m-area{
+	width: 981px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#footer .with-m .with1 button, #footer .with-m .with2 button{
+	display: block;
+	width: 490px;
+	height: 49px;
+	background: url(../img/footer-more.jpg) no-repeat;
+	padding:20px;
+	box-sizing: border-box;
+	font: 13px 'Nanum Gothic', sans-serif;
+	color: #333;
+	text-align: left;
+	border:none;
+}
+
+#footer .with-m .with1{border-left: 1px solid #eee;}
+
+#footer .with-m .with1{
+	float: left;
+}
+
+#footer .more {
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	width: 694px;
+	background-color:white;
+	color: #333;
+	font: 13px 'Nanum Gothic', sans-serif;
+	z-index: 10;
+	border: 1px solid #334555;
+	padding-top: 21px;
+	overflow: hidden;
+}
+
+#footer .with1 .more{
+	left: 0;
+}
+
+#footer .more li{
+	height: 100%;
+	float: none;
+}
+
+#footer .more li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 0;
+	float: none;
+}
+
+#footer .nav{
+	padding-bottom: 24px;
+}
+
+#footer .nav .nav1 {
+	float: left;
+	padding:0px 10px 0 20px;
+	box-sizing: border-box;
+	text-align: left;
+	width: 25%;
+	border-right: 1px solid #ddd;
+}
+
+#footer .nav .nav1 .nav-tle{
+	font: bold 14px 'Nanum Gothic', sans-serif;
+	color: #333;
+	margin-bottom: 12px;
+}
+
+#footer .nav .nav1.nav1-2{
+	padding-bottom: 20px;
+}
+
+#footer .nav .nav1.nav1-4{
+	border-right: none;
+}
+
+#footer .nav .nav1 ul li a{
+	font: 13px 'Nanum Gothic', sans-serif;
+	color:#202020;
+	width: 100%;
+	height: 25px;
+	padding: 0;
+}
+
+
+#footer .with-m .with2{
+	float: right;
+}
+
+#footer .with2 .more {
+	right:0;
+}
+
+#footer .with2 .nav ul{
+	float: left;
+	width:25%;
+	border-right: 1px solid #ddd;
+	box-sizing: border-box;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#footer .with2 .nav li{
+	height: 25px;
+}
+
+
+#footer .footer-banner{
+	width:100%;
+	height: 90px;
+}
+
+#footer .fbarea{
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+	background-color: white;
+}
+
+#footer .footer-banner .left{
+	float: left;
+}
+
+#footer .footer-banner .left p{
+	float: left;
+	margin: 35px 23px 0 0;
+	font: 11px 'Nanum Gothic', sans-serif;
+	color: #333;
+}
+
+#footer .footer-banner .left .small-logo1{
+	width: 62px;
+	height: 24px;
+	background: url(../img/mbc.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+#footer .footer-banner .left .small-logo2{
+	width: 78px;
+	height: 24px;
+	background: url(../img/imbc.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;	
+}
+
+#footer .footer-banner .right{
+	float: right;
+}
+
+#footer .footer-banner .right p{
+	float: left;
+	margin-top: 27px;
+	padding-left: 10px;
+}
+
+#footer .footer-banner .right .twitter a{
+	display: block;
+	width: 34px;
+	height: 34px;
+	background: url(../img/twitter.jpg) no-repeat;
+	overflow: hidden;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+#footer .footer-banner .right .facebook a{
+	display: block;
+	width: 34px;
+	height: 34px;
+	background: url(../img/facebook.jpg) no-repeat;
+	overflow: hidden;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+#footer .footer-banner .right .youtube a{
+	display: block;
+	width: 34px;
+	height: 34px;
+	overflow: hidden;
+	background: url(../img/youtube.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+#footer .footer-banner .right .mTalk a{
+	display: block;
+	width: 58px;
+	height: 34px;
+	overflow: hidden;
+	background: url(../img/mtalk.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+

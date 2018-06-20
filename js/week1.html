@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="">
+<meta name="robots" content="index,follow">
+<meta name="reply" content="">
+<meta name="copy">
+<title>문서 제목</title>
+<link rel="stylesheet" type="text/css" href="css/service_name.css">
+</head>
+<body>
+<div id="wrap">
+<!-- header-->
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  <!-- consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse -->
+  <!-- consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse -->
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  <!--//header-->
+<hr>
+제목
+<h1>문서의 제목을 표현</h1>
+<h2>문서의 제목을 표현</h2>
+<h3>문서의 제목을 표현</h3>
+<h4>문서의 제목을 표현</h4>
+<h5>문서의 제목을 표현</h5>
+<h6>문서의 제목을 표현</h6>
+
+<hr>
+
+<ul>  
+  <li>목록의 표현</li>
+  <li>목록의 표현</li>
+    <ul>  
+      <li>목록의 표현</li>
+        <ul>  
+          <li>목록의 표현</li>
+          <li>목록의 표현</li>
+        </ul>
+      <li>목록의 표현</li>
+    </ul>
+  <li>목록의 표현</li>
+  <li>목록의 표현</li>
+  <li>목록의 표현</li>
+</ul>
+
+<hr>
+
+<ol type="I"> <!--type="a|A|i|I"-->
+  <li>순서가 있는 목록의 표현</li>
+  <li>순서가 있는 목록의 표현</li>
+     <ol type="i">
+       <li>순서가 있는 목록의 표현</li>
+       <li>순서가 있는 목록의 표현</li>
+     </ol>
+  <li>순서가 있는 목록의 표현</li>
+    <ol type="A">
+      <li>순서가 있는 목록의 표현</li>
+      <li>순서가 있는 목록의 표현</li>
+        <ol type="a">
+          <li>순서가 있는 목록의 표현</li>
+          <li>순서가 있는 목록의 표현</li>
+        </ol>
+      <li>순서가 있는 목록의 표현</li>
+    </ol>
+  <li>순서가 있는 목록의 표현</li>
+</ol>
+
+<hr>
+
+<dl>
+  <dt>용어의 제목</dt>
+  <dd>용어의 구조</dd>
+  <dt>HTML [Hypertext Markup Language] </dt>
+  <dd>웹 문서를 만들기 위하여 사용하는 기본적인 프로그래밍 언어의 한 종류이다. 하이퍼텍스트를 작성하기 위해 개발되었다. 인터넷 서비스의 하나인 월드 와이드 웹을 통해 볼 수 있는 문서를 만들... 더보기</dd>
+  <dd>dt하나에 dd여러개는 되지만 dd하나에 dt여러개는 안됨 순서를 바꿔도 안됨.</dd>
+</dl>
+
+<hr>
+inline과 block
+<p style="background:lime">block요소</p>
+<p style="background:lime">block요소</p>
+<p style="background:lime">block요소</p>
+<span style="background:lime">inline요소</span>
+<span style="background:lime">inline요소</span>
+<span style="background:lime">inline요소</span>
+<dt style="background:skyblue">안에는 무조건 inline만 가능
+  <span style="background:lime">inline요소</span>
+  <p style="background:lime">block요소</p>
+</dt>
+<dd style="background:skyblue">안에는 인라인 블록 다 됨
+  <p style="background:lime">block요소</p>
+</dd>
+<h3>안에는 무조건 인라인만 가능</h3>
+<li>아네는 다 들어감</li>
+
+<hr>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br>
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+
+<hr>
+샘플이미지
+<p><img src="http://placehold.it/600x300" alt="width 600, height 300 image"></p>
+
+<hr>
+새창이동
+<h1><a href="http://naver.com/" target="_blank" title="naver로 이동(새창)"'>Naver</a></h1>
+<!--접근성에서 창을 새로 띄우는 경우는 굉장히 안 좋은 경우-->
+
+<hr>
+강조
+<p>저 화단에 심은 <em>꽃은 <em>아름답다</em></em></p>
+<p>저곳은 <strong><strong>위험하니</strong> 들어가지 마시오</strong></p>
+
+<hr>
+표
+<table cellpadding="20" border="1" summary="">
+  <caption>[ 세부 교육 프로그램 ]</caption>
+  <colgroup>
+    <col width="200">
+    <col width="*"> <!--별은 남은 부분-->  
+  </colgroup>
+  <thead>
+    <tr scope="colgroup">
+      <th scope="col">구분</th>
+      <th scope="col">정의</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1일차</td>
+      <td>오리엔테이션 / 웹 접근성의 이해(개념, 필요성, 관련 법제도 등)</td>
+    </tr>
+     <tr>
+      <td>2일차</td>
+      <td>오리엔테이션 / 웹 접근성의 이해(개념, 필요성, 관련 법제도 등)</td>
+     </tr>
+  </tbody>
+  <tfoot><!--결과값이 나오는 부분-->
+  </tfoot>
+</table>
+
+
+<hr>
+폼
+<form action="go.php" method="get"><!--method="get|post"-->
+  <fieldset>
+    <legend>필수입력항목</legend>
+      <div><!--div를 넣어줌으로 각 div를 블럭처리-->
+        <label for="user-id">아이디</label>
+        <input type="text" name="user-id" id="user-id" value="">
+      </div>
+      <div>
+        <label for="user-pass">비밀번호</label>
+        <input type="password" name="user-pass" id="user-pass" value="">
+      </div>
+      <div>
+        <label for="birth" id="">생일</label>
+        <select name="birth-year" id="birth-year" title="애너난 해를 선택하셔요">
+          <option value="1985">1985</option>
+          <option value="1986">1986</option>
+          <option value="1987">1987</option>
+          <option value="1988">1988</option>
+          <option value="1989">1989</option>
+          <option value="1989" selectid=>1989</option>
+        </select>
+        <select name="" id="">
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+        </select> 년
+      </div>
+      <div>
+        <label for="comment">의견</label>
+        <textareaname="comment"  id="comment" cols="9-" ></textarea>
+      </div>
+  </fieldset>
+  <!--<input type="submit" value="전송">-->
+  <!--<button type="submit">전송</button>-->
+  <input type="image" src="http://placehold.it/100x40" alt="전송">
+  <!--세개다 기능은 똑같음-->
+</form>
+</div>
+
+<hr>
+<iframe src="http://www.wah.or.kr" with="800" height="330" frameborder="1"></iframe>
+<iframe src="http://www.wah.or.kr" with="800" height="330" frameborder="0"></iframe>
+<address> 
+  <p>서울시  강남구 역삼동</p>
+  <p>전화 </p>
+</address>
+</body>
+</html>
